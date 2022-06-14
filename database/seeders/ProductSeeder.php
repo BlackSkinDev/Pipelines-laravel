@@ -113,7 +113,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'name'=>'Corn Flakes',
+                'name'=>'Mcdowells',
                 'registered_at'=> '2022-06-15 22:15:00',
                 'type_a_perish_probability' =>40,
                 'type_b_perish_probability' =>39,
@@ -121,7 +121,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'name'=>'Corn Flakes',
+                'name'=>'Andre',
                 'registered_at'=> '2022-06-16 22:15:00',
                 'type_a_perish_probability' =>40,
                 'type_b_perish_probability' =>39,
@@ -129,7 +129,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'name'=>'Corn Flakes',
+                'name'=>'Champagne',
                 'registered_at'=> '2022-06-29 22:15:00',
                 'type_a_perish_probability' =>40,
                 'type_b_perish_probability' =>39,
@@ -137,7 +137,7 @@ class ProductSeeder extends Seeder
             ],
 
             [
-                'name'=>'Corn Flakes',
+                'name'=>'Azul',
                 'registered_at'=> '2022-06-19 22:15:00',
                 'type_a_perish_probability' =>40,
                 'type_b_perish_probability' =>39,
