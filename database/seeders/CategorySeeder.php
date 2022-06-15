@@ -15,9 +15,22 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        Category::create(['name' => Category::BEVERAGE_CATEGORY]);
-        Category::create(['name' => Category::VEGETABLE_CATEGORY]);
-        Category::create(['name' => Category::CEREAL_CATEGORY]);
-        Category::create(['name' => Category::ALCOHOL_CATEGORY]);
+
+        $categories = [
+            [
+                'name'=>Category::BEVERAGE_CATEGORY
+            ],
+            [
+                'name'=>Category::VEGETABLE_CATEGORY
+            ],
+            [
+                'name'=>Category::CEREAL_CATEGORY
+            ],
+            [
+                'name'=>Category::ALCOHOL_CATEGORY
+            ],
+        ];
+
+        Category::insert($categories);
     }
 }
