@@ -13,7 +13,7 @@
                 <form method="post" action="" style="position: sticky; top: 30px" id="filter-form">
                     @csrf
                     <div style="">
-                        <span style="font-weight:560">By Time</span>
+                        <span style="font-weight:560">By Date Registered</span>
                         <a style="float: right;color:white;" class="btn btn-danger btn-sm" id="reset"><i class="fa fa-refresh"></i></a>
                     </div>
                     <hr>
@@ -21,26 +21,25 @@
                         <select class="form-control" name="date_type" id="date_filter">
                             <option value="">Select time</option>
                             <option value="today">Today</option>
-                            <option value="tomorrow">Tomorrow</option>
                             <option value="week">This week</option>
                             <option value="month">This month</option>
                         </select>
                     </div>
 
-                    <h6 class="mt-3">By Probability</h6>
+                    <h6 class="mt-3">By Perishable  Probability</h6>
                     <hr>
                     <div>
                         <div class="search-box">
                             <div><input type="checkbox" name="probability_type" value="high" class="probCheckbox" id="high"></div>
-                            <div><p id="highlabel" class="bold" >1X2 High (Type A or B >= 70)</p></div>
+                            <div><p id="highlabel" class="bold" >High (Type A or B >= 70)</p></div>
                         </div>
                         <div class="search-box">
                             <div><input type="checkbox" name="probability_type" value="moderate" class="probCheckbox" id="moderate"></div>
-                            <div><p id="moderatelabel">1X2 Moderate <br>(Type A and B > 50 < 69)</p></div>
+                            <div><p id="moderatelabel">Moderate (Type A and B >= 50 < 70)</p></div>
                         </div>
                         <div class="search-box">
                             <div><input type="checkbox" name="probability_type" value="low" class="probCheckbox" id="low"></div>
-                            <div><p id="lowlabel">1X2 Low (Type A and B < 50)</p></div>
+                            <div><p id="lowlabel">Low (Type A and B < 50)</p></div>
                         </div>
                     </div>
 

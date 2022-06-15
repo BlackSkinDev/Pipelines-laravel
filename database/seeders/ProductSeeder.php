@@ -91,24 +91,24 @@ class ProductSeeder extends Seeder
             [
                 'name'=>'Rice',
                 'registered_at'=> '2022-06-18 22:15:00',
-                'type_a_perish_probability' =>40,
-                'type_b_perish_probability' =>39,
+                'type_a_perish_probability' =>90,
+                'type_b_perish_probability' =>19,
                 'category_id'=>$cerealCategory->id
             ],
 
             [
                 'name'=>'Oats',
                 'registered_at'=> '2022-06-28 22:15:00',
-                'type_a_perish_probability' =>40,
-                'type_b_perish_probability' =>39,
+                'type_a_perish_probability' =>50,
+                'type_b_perish_probability' =>69,
                 'category_id'=>$cerealCategory->id
             ],
 
             [
                 'name'=>'Corn Flakes',
                 'registered_at'=> '2022-06-15 22:15:00',
-                'type_a_perish_probability' =>40,
-                'type_b_perish_probability' =>39,
+                'type_a_perish_probability' =>50,
+                'type_b_perish_probability' =>79,
                 'category_id'=>$cerealCategory->id
             ],
 
@@ -116,14 +116,14 @@ class ProductSeeder extends Seeder
                 'name'=>'Mcdowells',
                 'registered_at'=> '2022-06-15 22:15:00',
                 'type_a_perish_probability' =>40,
-                'type_b_perish_probability' =>39,
+                'type_b_perish_probability' =>69,
                 'category_id'=>$alcoholCategory->id
             ],
 
             [
                 'name'=>'Andre',
                 'registered_at'=> '2022-06-16 22:15:00',
-                'type_a_perish_probability' =>40,
+                'type_a_perish_probability' =>30,
                 'type_b_perish_probability' =>39,
                 'category_id'=>$alcoholCategory->id
             ],
@@ -131,7 +131,7 @@ class ProductSeeder extends Seeder
             [
                 'name'=>'Champagne',
                 'registered_at'=> '2022-06-29 22:15:00',
-                'type_a_perish_probability' =>40,
+                'type_a_perish_probability' =>70,
                 'type_b_perish_probability' =>39,
                 'category_id'=>$alcoholCategory->id
             ],
@@ -139,8 +139,8 @@ class ProductSeeder extends Seeder
             [
                 'name'=>'Azul',
                 'registered_at'=> '2022-06-19 22:15:00',
-                'type_a_perish_probability' =>40,
-                'type_b_perish_probability' =>39,
+                'type_a_perish_probability' =>10,
+                'type_b_perish_probability' =>90,
                 'category_id'=>$alcoholCategory->id
             ],
 

@@ -10,7 +10,7 @@ class Category extends Model
     use HasFactory;
 
     CONST BEVERAGE_CATEGORY = 'beverages';
-    CONST VEGETABLE_CATEGORY = 'vegetableS';
+    CONST VEGETABLE_CATEGORY = 'vegetables';
     CONST CEREAL_CATEGORY = 'cereals';
     CONST ALCOHOL_CATEGORY = 'alcohols';
 
