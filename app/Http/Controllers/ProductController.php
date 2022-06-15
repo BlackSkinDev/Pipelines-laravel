@@ -25,9 +25,15 @@ class ProductController extends Controller
         return view('welcome', compact('categories','products'));
     }
 
+
     public function filter(Request $request)
     {
         $products = $this->productService->filter($request);
+        return view('ajax-response', compact('products'));
+    }
+
+    public function reset(){
+        $products = $this->productService->getAllProducts();
         return view('ajax-response', compact('products'));
     }
 }

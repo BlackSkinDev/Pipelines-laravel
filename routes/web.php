@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [App\Http\Controllers\ProductController::class,'index'])->name('index');
 Route::post('/filter', [App\Http\Controllers\ProductController::class,'filter'])->name('filter');
+Route::post('/reset', [App\Http\Controllers\ProductController::class,'reset'])->name('reset');
